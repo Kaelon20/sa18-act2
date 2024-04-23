@@ -7,3 +7,21 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Product.create!(
+    name: 'Air Fryer',
+    price: 129.99,
+    description: 'Fry your food without needing any greese with the air fryer'
+)
+
+Product.create!(
+    name: 'Laptop',
+    price: 249.99,
+    description: 'Portable Laptop'
+)
+
+Product.create!(
+    name: 'Bowl',
+    price: 15.99,
+    description: 'Something to put food in'
+)
